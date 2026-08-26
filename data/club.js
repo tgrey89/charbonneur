@@ -10,19 +10,19 @@
 window.CLUB = {
   // Dernier match : finale de la Como Cup remportée face à Villarreal (1er août 2026, Côme)
   lastMatch: {
-    comp: 'Trophée des Champions',
-    home: { code: 'RCL', name: 'RC Lens', score: 1, isLens: true },
-    away: { code: 'PSG', name: 'Paris SG', score: 0 },
-    info: 'Bollaert · premier Trophée des Champions de l\u2019histoire du club'
+    comp: 'Ligue 1 · J1',
+    home: { code: 'RCL', name: 'RC Lens', score: 5, isLens: true },
+    away: { code: 'AJA', name: 'Auxerre', score: 2 },
+    info: 'Bollaert · 38 115 spectateurs · doublé de Thauvin'
   },
-  // Classement final Ligue 1 2025-2026 (source : lensois.com/classement/)
-  standingsTitle: 'Classement final 2025-2026',
+  // Classement 2026-27 après J1 (source : sports-infos, 23/08/2026) — top 6 affiché
+  standingsTitle: 'Classement 2026-27 · après J1',
   standings: [
-    { pos: 1, club: 'Paris SG', played: 34, diff: '+45', pts: 76 },
-    { pos: 2, club: 'RC Lens', played: 34, diff: '+31', pts: 70, isLens: true },
-    { pos: 3, club: 'Lille', played: 34, diff: '+15', pts: 61 },
-    { pos: 4, club: 'Lyon', played: 34, diff: '+13', pts: 60 },
-    { pos: 5, club: 'Marseille', played: 34, diff: '+18', pts: 59 },
-    { pos: 6, club: 'Rennes', played: 34, diff: '+9', pts: 59 }
+    { pos: 1, club: 'Marseille', played: 1, diff: '+4', pts: 3 },
+    { pos: 2, club: 'RC Lens', played: 1, diff: '+3', pts: 3, isLens: true },
+    { pos: 3, club: 'Lille', played: 1, diff: '+2', pts: 3 },
+    { pos: 4, club: 'Lyon', played: 1, diff: '+2', pts: 3 },
+    { pos: 5, club: 'Monaco', played: 1, diff: '+1', pts: 3 },
+    { pos: 6, club: 'Paris SG', played: 1, diff: '0', pts: 1 }
   ]
 };
