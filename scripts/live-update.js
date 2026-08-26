@@ -8,8 +8,23 @@ if (!KEY) { console.log('::warning::FOOTBALL_DATA_KEY absent — direct désacti
 
 (async () => {
   const now = new Date();
+  // Garde économe : si un prochain match est mémorisé et lointain, ne pas appeler l'API
+  try {
+    const prev = JSON.parse(fs.readFileSync('data/live.json', 'utf8'));
+    const ref = prev.nextMatch || (prev.status === 'TIMED' ? prev.utcDate : null);
+    if (!['IN_PLAY', 'PAUSED'].includes(prev.status) && ref) {
+      const dt = new Date(ref) - now;
+      const since = now - new Date(prev.updated || 0);
+      // On ré-appelle l'API si : match dans <30 min, match potentiellement en cours,
+      // ou dernière vérification vieille de >12h (rattrapage calendrier)
+      if (dt > 30 * 60e3 && since < 12 * 3600e3) {
+        console.log('Prochain match dans ' + Math.round(dt / 36e5) + 'h — pas d\'appel API.');
+        process.exit(0);
+      }
+    }
+  } catch (_) {}
   const d = x => x.toISOString().slice(0, 10);
-  const from = d(new Date(now - 12 * 3600e3)), to = d(new Date(+now + 12 * 3600e3));
+  const from = d(new Date(now - 12 * 3600e3)), to = d(new Date(+now + 7 * 86400e3));
   const r = await fetch(`https://api.football-data.org/v4/teams/${TEAM}/matches?dateFrom=${from}&dateTo=${to}`,
     { headers: { 'X-Auth-Token': KEY } });
   if (!r.ok) { console.log('::error::football-data ' + r.status + ' ' + (await r.text()).slice(0, 150)); process.exit(1); }
@@ -42,6 +57,7 @@ if (!KEY) { console.log('::warning::FOOTBALL_DATA_KEY absent — direct désacti
     home: { name: home.shortName || home.name, tla: home.tla, score: cur.home },
     away: { name: away.shortName || away.name, tla: away.tla, score: cur.away },
     goals: goals,
+    nextMatch: (matches.find(x => x.status === 'TIMED' || x.status === 'SCHEDULED') || {}).utcDate || null,
     updated: now.toISOString()
   };
   const path = 'data/live.json';
