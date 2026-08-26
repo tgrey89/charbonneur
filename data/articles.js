@@ -9,6 +9,53 @@
 
 window.ARTICLES = [
   {
+    id: 'j1-lens-auxerre-5-2',
+    date: '2026-08-22',
+    time: '21:30',
+    category: 'saison',
+    title: 'Festival à Bollaert : Lens régale pour sa première (5-2) et confirme son statut',
+    excerpt: 'Doublé sur penalty de Thauvin, premiers buts d\u2019Ivanović, Abdulhamid et Ganiou, première réussie pour le jeune Sagnan : devant 38 115 spectateurs, les Sang et Or ont lancé leur saison par un récital offensif face à l\u2019AJA de Will Still, réduite à dix dès la 35e.',
+    image: 'images/players/thauvin.jpg',
+    featured: null,
+    pinned: false,
+    hot: true,
+    heat: 8,
+    body: [
+      'Une semaine après le Trophée des Champions, Bollaert en redemandait — Bollaert a été servi. Pour la première journée de Ligue 1, le RC Lens a dominé l\u2019AJ Auxerre 5 à 2, samedi devant 38 115 spectateurs, au terme d\u2019un match débridé à sept buts.',
+      'Le nouveau capitaine a montré la voie : Florian Thauvin a ouvert le score sur penalty dès la 13e minute avant de clore la soirée, encore sur penalty, à la 89e — un doublé qui le porte à 99 buts en Ligue 1. Entre-temps, l\u2019expulsion du défenseur auxerrois Makosso (35e), coupable d\u2019avoir fauché Sima lancé au but, avait fait basculer la rencontre.',
+      'La soirée fut aussi celle des premières : premier but en Ligue 1 pour Franjo Ivanović d\u2019une frappe croisée après un une-deux avec Sima (49e), première réalisation lensoise de Saud Abdulhamid d\u2019une tête plongeante sur un ballon piqué de Thauvin (57e), et but du prolongé Ismaëlo Ganiou, en taclant un centre de Skóraś (66e). Sans oublier les débuts en Ligue 1, pleins de maturité, du jeune défenseur Souleymane Sagnan, titulaire surprise.',
+      'Tout ne fut pas parfait pour autant : réduits à dix, les Auxerrois ont trouvé deux fois la faille, par Namaso sur penalty (61e) après une faute de Cuisance, puis par Sy en contre (69e). De quoi donner à Dino Toppmöller son axe de travail de la semaine : on n\u2019encaisse pas deux buts en supériorité numérique sans que le staff y voie matière à corriger.',
+      'Au classement, les Sang et Or pointent au 2e rang derrière Marseille à la différence de buts. La suite : déplacement à Strasbourg samedi (J2), avant la réception de Lorient puis les grandes retrouvailles avec la Ligue des champions, le 10 septembre à Bollaert. La saison est lancée, et elle démarre comme l\u2019été s\u2019était terminé : en fanfare.'
+    ],
+    sources: [
+      { name: 'RC Lens (compte rendu officiel)', url: 'https://www.rclens.fr/fr/rclens-ajauxerre-compte-rendu-ligue1-j1-20260822' },
+      { name: 'Lensois.com', url: 'https://www.lensois.com/rc-lens-auxerre-5-2-une-victoire-un-festival-de-buts-et-quand-meme-encore-un-peu-de-travail/' },
+      { name: 'Maxifoot (fil du match)', url: 'https://news.maxifoot.fr/ligue-1/lens-5-2-auxerre-fini-foot-462289.htm' }
+    ]
+  },
+  {
+    id: 'stat-thauvin-99',
+    date: '2026-08-26',
+    time: '08:30',
+    category: 'saison',
+    title: 'La stat du jour : 99 — Thauvin aux portes de l\u2019histoire, et des chiffres qui donnent le vertige',
+    excerpt: 'Le doublé contre Auxerre porte Florian Thauvin à 99 buts en Ligue 1 : le 100e pourrait tomber samedi à Strasbourg. Derrière ce chiffre rond, les données LFP du match racontent un capitaine hors norme — et un Racing déjà très au-dessus de ses xG.',
+    image: '',
+    featured: null,
+    pinned: false,
+    body: [
+      'Il y a les chiffres ronds qui se voient de loin, et celui-ci arrive à grands pas : avec son doublé face à Auxerre, Florian Thauvin a inscrit ses 98e et 99e buts en Ligue 1. La barre mythique des 100 buts dans l\u2019élite pourrait donc tomber dès samedi à la Meinau — un cap que très peu de joueurs en activité dans le championnat peuvent revendiquer.',
+      'Les données LFP du match dessinent un capitaine total : meilleur total de distance parcourue de la rencontre (6 km dans un rôle offensif) et 45 courses à haute intensité, en plus du doublé et d\u2019une influence constante sur le jeu. À 33 ans, l\u2019ancien champion du monde traverse un début de saison où chaque sortie ajoute une ligne à sa légende artésienne : buteur au Trophée des Champions, doublé en ouverture du championnat.',
+      'L\u2019équipe n\u2019est pas en reste dans le tableau statistique. Les Sang et Or ont cadré 9 de leurs 12 tirs et converti 5 buts pour 4,45 buts attendus (xG), quand Auxerre plafonnait à 1,79 : autrement dit, une efficacité offensive au-dessus même d\u2019un volume d\u2019occasions déjà élevé.',
+      'Dans le détail individuel, les recrues ont brillé aux avant-postes chiffrés : Franjo Ivanović a été le Lensois le plus actif dans les duels (9 gagnés), le plus tourné vers le but (3 tirs) et le plus percutant (3 dribbles réussis), tandis que Yacine Titraoui a été le principal métronome du match avec 61 passes réussies — déjà indispensable après trois semaines.',
+      'Reste l\u2019ombre au tableau que ces mêmes chiffres soulignent : 2 buts encaissés pour 1,79 xG concédés, en supériorité numérique pendant une heure. La marge de progression défensive est identifiée — et c\u2019est peut-être la meilleure nouvelle : ce Racing gagne largement sans être encore à son niveau optimal.'
+    ],
+    sources: [
+      { name: 'Lensois.com (stats LFP du match)', url: 'https://www.lensois.com/rc-lens-auxerre-5-2-les-stats-du-match-ivanovic-bien-present-thauvin-a-une-unite-des-100-buts/' },
+      { name: 'HorizonActu (tops et flops)', url: 'https://www.horizonactu.fr/actualite-49336-rc-lens-auxerre-5-2-les-tops-et-les-flops-de-la-redac' }
+    ]
+  },
+  {
     id: 'mercato-doctrine-leca-jeunes',
     date: '2026-08-22',
     time: '15:00',

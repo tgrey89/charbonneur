@@ -70,3 +70,9 @@ soit une fausse/vieille news → ne pas publier.
 - **Trophée des Champions** : 2 expulsions lensoises contre le PSG (dont Antonio) — sa suspension explique son absence vs Auxerre.
 - ⚠️ **Piège infobox** : Wikipédia et TopMercato affichent encore « Pierre Sage » entraîneur (fiches périmées, Sage = saison 25-26). Entraîneur actuel : **Toppmöller** (sources datées 20-21/08). Ne JAMAIS se fier à une infobox non datée.
 - J1 Lens-Auxerre EN COURS à l'heure de cette maj (22/08 18h15) → compte-rendu à faire APRÈS le coup de sifflet final uniquement.
+
+## Mise à jour du 26/08 (après J1)
+- **J1 gagnée 5-2 vs Auxerre** (22/08, 38 115 spect.) : Thauvin 13' sp & 89' sp (→ **99 buts en L1**, le 100e en vue à Strasbourg), Ivanović 49' (1er but L1), Abdulhamid 57', Ganiou 66' ; Makosso (AJA) exclu 35'. Bémol : 2 buts encaissés à 11 c. 10.
+- **Sagnan** : première L1 réussie, titulaire dans l'axe → la piste « défenseur gaucher externe » devient moins urgente selon la presse locale. **Mesloub** (banc, non entré) : à ajouter à l'effectif après vérification (poste/âge sur rclens.fr).
+- Classement : **Lens 2e** derrière l'OM (diff). J2 : **Strasbourg-Lens samedi 29/08**.
+- Hazard : suspension purgée (entré en jeu à la 62e), disponible pour la J2.
