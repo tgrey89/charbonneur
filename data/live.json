@@ -1,18 +1,18 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-08-22T15:15:00Z",
+ "utcDate": "2026-08-29T15:15:00Z",
  "competition": "Ligue 1",
  "home": {
-  "name": "RC Lens",
-  "tla": "RCL",
-  "score": 5
+  "name": "Strasbourg",
+  "tla": "RC ",
+  "score": null
  },
  "away": {
-  "name": "Auxerre",
-  "tla": "AJA",
-  "score": 2
+  "name": "RC Lens",
+  "tla": "RCL",
+  "score": null
  },
  "goals": [],
- "updated": "2026-08-22T17:27:37.962Z"
+ "updated": "2026-08-28T21:29:54.649Z"
 }
