@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thibautgras.github.io/charbonneur/sitemap.xml
+Sitemap: https://tgrey89.github.io/charbonneur/sitemap.xml
