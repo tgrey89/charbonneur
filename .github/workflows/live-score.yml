@@ -13,15 +13,23 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - name: Interroger le score
+      - name: Suivre le match (boucle tant que le match est imminent ou en cours)
         env: { FOOTBALL_DATA_KEY: "${{ secrets.FOOT }}" }
-        run: node scripts/live-update.js
-      - name: Pousser si changement
         run: |
-          if [ -f .live-changed ]; then
-            rm .live-changed
-            git config user.name "charbonneurs-live" && git config user.email "actions@github.com"
-            git add data/live.json
-            git commit -m "live : mise à jour du score [skip ci]"
-            git pull --rebase origin main && git push origin main
-          fi
+          git config user.name "charbonneurs-live" && git config user.email "actions@github.com"
+          for i in $(seq 1 200); do
+            node scripts/live-update.js
+            if [ -f .live-changed ]; then
+              rm .live-changed
+              git add data/live.json
+              git commit -m "live : mise à jour du score [skip ci]" || true
+              git pull --rebase origin main && git push origin main || true
+            fi
+            STATUS=$(node -e "try{console.log(JSON.parse(require('fs').readFileSync('data/live.json','utf8')).status)}catch(e){console.log('NONE')}")
+            KICKOFF=$(node -e "try{var d=JSON.parse(require('fs').readFileSync('data/live.json','utf8'));var t=new Date(d.status==='TIMED'?d.utcDate:d.nextMatch||0)-Date.now();console.log(Math.round(t/60000))}catch(e){console.log(99999)}")
+            # Boucler si match en cours, ou si coup d'envoi dans moins de 20 min
+            if [ "$STATUS" = "IN_PLAY" ] || [ "$STATUS" = "PAUSED" ]; then sleep 60; continue; fi
+            if [ "$KICKOFF" -ge -10 ] && [ "$KICKOFF" -le 20 ]; then sleep 60; continue; fi
+            echo "Pas de match imminent (statut=$STATUS, coup d'envoi dans ${KICKOFF} min) — fin du run."
+            break
+          done

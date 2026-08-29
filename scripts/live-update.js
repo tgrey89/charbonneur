@@ -49,13 +49,14 @@ if (!KEY) { console.log('::warning::FOOTBALL_DATA_KEY absent — direct désacti
   } catch (_) {}
   const home = m.homeTeam, away = m.awayTeam, sc = m.score;
   const cur = (sc.fullTime.home !== null ? sc.fullTime : sc.halfTime);
+  const tla = t => ((t.tla || t.shortName || t.name || '').replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase()) || '???';
   const out = {
     status: m.status, // TIMED, IN_PLAY, PAUSED, FINISHED...
     minute: m.minute || null,
     utcDate: m.utcDate,
     competition: (m.competition || {}).name || '',
-    home: { name: home.shortName || home.name, tla: home.tla, score: cur.home },
-    away: { name: away.shortName || away.name, tla: away.tla, score: cur.away },
+    home: { name: home.shortName || home.name, tla: tla(home), score: cur.home },
+    away: { name: away.shortName || away.name, tla: tla(away), score: cur.away },
     goals: goals,
     nextMatch: (matches.find(x => x.status === 'TIMED' || x.status === 'SCHEDULED') || {}).utcDate || null,
     updated: now.toISOString()
