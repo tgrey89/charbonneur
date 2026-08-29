@@ -35,6 +35,18 @@
   Eden Arena (Slavia) — chercher `Category:<stade> wikimedia commons`, relever
   auteur + licence, ajouter ici.
 
+
+## Ambiance Bollaert & supporters (récolte du 29/08)
+- **Soirée européenne Lens-Arsenal 2023 (LDC)** — `RC%20Lens%20-%20Arsenal%20FC%20(03-10-2023)%2016%20(cropped).jpg`
+  **CC0 (domaine public)** — aucune attribution requise. Crédit courtoisie : `Wikimedia Commons · CC0` ✅
+  → chercher la série complète `Category:RC Lens v Arsenal FC (03-10-2023)` : probablement d'autres angles en CC0.
+- **Supporters tribune Lepagnot (Lens-Nantes 2013)** — `Supporters%20Lepagnot%20-%20Lens-Nantes%202013.JPG`
+  Crédit : `Floflo62 · Wikimedia Commons` ✅ (licence à confirmer à l'usage, page File claire)
+- **Tifo Lens-Lille 2009** — `Tifo%20Lens-Lille%202009.jpg` — CC BY-SA 3.0, AUTEUR À RELEVER.
+- Tribunes une à une (AUTEUR À RELEVER) : `Tribune%20Marek.jpg` (panorama 7683px),
+  `Tribune%20Delacourt.jpg`, `Tribune%20Trannin%20Bollaert-Delelis%20janvier%202016.jpg`,
+  `Tribunes%20Marek-Xerc%C3%A8s.jpg`, `Tribune%20Lepagnot%20-%20stade%20Bollaert.jpg`.
+
 ## ⚠️ PIÈGES
 - Certains fichiers de Jérémy Jähnick portent une **« licence JÄHNICK 1.0 » maison et
   restrictive** (ex. les séries « Terrils n° 74… (053A) ») → NE PAS UTILISER ceux-là ;
