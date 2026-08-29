@@ -556,3 +556,9 @@ body.lamp-disabled #mine .cage{box-shadow:none!important}
 .live-goals{list-style:none;margin:.55rem 0 0;padding:0;font-size:.78rem;line-height:1.7}
 .live-goals .lg-home{color:var(--or)}
 .live-goals .lg-away{color:var(--ink-dim)}
+
+/* ---- Barre EN DIRECT (haut de page) ---- */
+#liveBar{position:fixed;top:var(--headerH,58px);left:0;right:0;z-index:58;display:flex;align-items:center;justify-content:center;gap:.5rem;background:#160b0b;border-bottom:1px solid var(--sang);color:var(--ink);font-size:.82rem;font-weight:800;letter-spacing:.06em;padding:.45rem .8rem;text-decoration:none}
+#liveBar strong{color:var(--or);font-size:.95rem}
+body.has-livebar main{padding-top:2.2rem}
+.rank-note{font-size:.68rem;color:var(--ink-faint);margin:.4rem 0 0}

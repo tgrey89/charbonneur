@@ -61,6 +61,42 @@ if (!KEY) { console.log('::warning::FOOTBALL_DATA_KEY absent — direct désacti
     nextMatch: (matches.find(x => x.status === 'TIMED' || x.status === 'SCHEDULED') || {}).utcDate || null,
     updated: now.toISOString()
   };
+  // ---- Classement en direct (base officielle + résultats provisoires des matchs en cours) ----
+  try {
+    if ((out.competition || '').includes('Ligue 1')) {
+      const [stR, mdR] = await Promise.all([
+        fetch('https://api.football-data.org/v4/competitions/FL1/standings', { headers: { 'X-Auth-Token': KEY } }).then(r => r.json()),
+        fetch('https://api.football-data.org/v4/competitions/FL1/matches?dateFrom=' + d(new Date(+now - 6 * 3600e3)) + '&dateTo=' + d(now), { headers: { 'X-Auth-Token': KEY } }).then(r => r.json())
+      ]);
+      const table = ((stR.standings || []).find(s => s.type === 'TOTAL') || {}).table || [];
+      const rows = table.map(t => ({
+        id: t.team.id, club: t.team.shortName || t.team.name,
+        played: t.playedGames, pts: t.points, gd: t.goalDifference, live: false
+      }));
+      // Appliquer les scores des matchs EN COURS comme résultats provisoires
+      (mdR.matches || []).filter(x => ['IN_PLAY', 'PAUSED'].includes(x.status)).forEach(x => {
+        const h = rows.find(r => r.id === x.homeTeam.id), a = rows.find(r => r.id === x.awayTeam.id);
+        const sh = x.score.fullTime.home ?? x.score.halfTime.home ?? 0;
+        const sa = x.score.fullTime.away ?? x.score.halfTime.away ?? 0;
+        if (h && a) {
+          h.played++; a.played++; h.gd += sh - sa; a.gd += sa - sh;
+          h.pts += sh > sa ? 3 : sh < sa ? 0 : 1; a.pts += sa > sh ? 3 : sa < sh ? 0 : 1;
+          h.live = a.live = true;
+        }
+      });
+      rows.sort((x, y) => y.pts - x.pts || y.gd - x.gd);
+      rows.forEach((r, i) => r.pos = i + 1);
+      const lens = rows.find(r => /Lens/i.test(r.club));
+      const top = rows.slice(0, 6);
+      if (lens && !top.includes(lens)) top.push(lens);
+      fs.writeFileSync('data/live-standings.json', JSON.stringify({
+        anyLive: rows.some(r => r.live),
+        updated: now.toISOString(),
+        rows: top.map(r => ({ pos: r.pos, club: r.club, played: r.played, diff: (r.gd >= 0 ? '+' : '') + r.gd, pts: r.pts, live: r.live, isLens: /Lens/i.test(r.club) }))
+      }, null, 1));
+    }
+  } catch (e) { console.log('::warning::classement live : ' + String(e.message).slice(0, 120)); }
+
   const path = 'data/live.json';
   const prev = fs.existsSync(path) ? fs.readFileSync(path, 'utf8') : '';
   const next = JSON.stringify(out, null, 1);

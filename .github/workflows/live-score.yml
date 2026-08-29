@@ -21,7 +21,7 @@ jobs:
             node scripts/live-update.js
             if [ -f .live-changed ]; then
               rm .live-changed
-              git add data/live.json
+              git add data/live.json data/live-standings.json
               git commit -m "live : mise à jour du score [skip ci]" || true
               git pull --rebase origin main && git push origin main || true
             fi

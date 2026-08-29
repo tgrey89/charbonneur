@@ -1193,9 +1193,44 @@
               }).join('') + '</ul>'
             : '');
       }
+      var RAWST = 'https://raw.githubusercontent.com/tgrey89/charbonneur/main/data/live-standings.json';
+      var stSaved = null;
+      function liveBar(d) {
+        var bar = document.getElementById('liveBar');
+        var live = d && (d.status === 'IN_PLAY' || d.status === 'PAUSED');
+        if (!live) { if (bar) bar.remove(); return; }
+        if (!bar) {
+          bar = document.createElement('a');
+          bar.id = 'liveBar'; bar.href = '#direct';
+          document.body.appendChild(bar);
+          document.body.classList.add('has-livebar');
+        }
+        var min = d.status === 'PAUSED' ? 'MT' : (d.minute ? d.minute + '\u2032' : '');
+        bar.innerHTML = '<span class="live-dot"></span> EN DIRECT \u00b7 ' +
+          esc(d.home.tla) + ' <strong>' + (d.home.score == null ? '\u2013' : d.home.score) +
+          '-' + (d.away.score == null ? '\u2013' : d.away.score) + '</strong> ' + esc(d.away.tla) +
+          (min ? ' \u00b7 ' + min : '');
+        if (!live) document.body.classList.remove('has-livebar');
+      }
+      function liveStandings() {
+        fetch(RAWST + '?t=' + Date.now()).then(function (r) { return r.json(); }).then(function (s) {
+          var box = document.getElementById('standingsBox');
+          var t = document.getElementById('standingsTitle');
+          if (!box || !s || !s.rows) return;
+          if (!s.anyLive) { if (stSaved) { box.innerHTML = stSaved.b; t.textContent = stSaved.t; stSaved = null; } return; }
+          if (!stSaved) stSaved = { b: box.innerHTML, t: t.textContent };
+          t.innerHTML = 'Classement <span style="color:var(--sang)">\u25cf en direct</span>';
+          box.innerHTML = '<table class="rank"><thead><tr><th>#</th><th>Club</th><th>J</th><th>Diff</th><th>Pts</th></tr></thead><tbody>' +
+            s.rows.map(function (r) {
+              return '<tr' + (r.isLens ? ' class="lens"' : '') + '><td class="pos">' + r.pos + '</td>' +
+                '<td class="club">' + esc(r.club) + (r.live ? ' <span style="color:var(--sang)">\u25cf</span>' : '') + '</td>' +
+                '<td>' + r.played + '</td><td>' + esc(r.diff) + '</td><td>' + r.pts + '</td></tr>';
+            }).join('') + '</tbody></table><p class="rank-note">\u25cf match en cours \u2014 positions provisoires</p>';
+        }).catch(function () {});
+      }
       function tick() {
         var src = LIVE_WORKER || (RAW + '?t=' + Date.now());
-        fetch(src).then(function (r) { return r.json(); }).then(render).catch(function () {
+        fetch(src).then(function (r) { return r.json(); }).then(function (d) { render(d); liveBar(d); if (d.status === 'IN_PLAY' || d.status === 'PAUSED') liveStandings(); else liveStandings(); }).catch(function () {
           if (LIVE_WORKER) fetch(RAW + '?t=' + Date.now()).then(function (r) { return r.json(); }).then(render).catch(function () {});
         });
       }
