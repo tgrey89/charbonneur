@@ -113,7 +113,8 @@ window.ARTICLES = [
     statut: 'confirme',
     title: 'Dernière ligne droite du mercato : la doctrine Leca, un central en priorité et les jeunes en mouvement',
     excerpt: 'À dix jours de la fermeture (1er septembre, 19h59), le cap est clair : aucune recrue au-dessus de 8 M\u20ac, un défenseur central pour remplacer Sarr en priorité, et une gestion active des jeunes — Labeau-Lascary prêté à\u2026 Auxerre avec obligation d\u2019achat, Capuano à QRM, Fofana courtisé par les Rangers.',
-    image: 'images/defaut/lens2.jpg',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Loos-en-Gohelle%20-%20Terril%20n%C2%B0%2079,%2016%20de%20Lens%20Est%20(01).JPG?width=1200',
+    imageCredit: 'Jérémy Jännick · Wikimedia Commons',
     featured: null,
     pinned: false,
     body: [
@@ -208,7 +209,8 @@ window.ARTICLES = [
     statut: 'confirme',
     title: 'Dernier renfort défensif : après les échecs Obispo et Obert, le Racing ratisse large',
     excerpt: 'Le feuilleton du défenseur gaucher se complique : Obispo est finalement retourné au PSV cet été malgré un accord quasi bouclé, et Cagliari vient de repousser environ 10 M\u20ac pour Adam Obert. La pépite de Bournemouth Rees-Dottin reste suivie, pendant que Risser est conservé dans les cages.',
-    image: 'images/defaut/lens3.jpg',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stade%20Bollaert%20Delelis.JPG?width=1200',
+    imageCredit: 'Liondartois · CC BY-SA 4.0 · Wikimedia Commons',
     featured: null,
     pinned: false,
     body: [
