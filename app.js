@@ -1169,7 +1169,7 @@
     (function () {
       // URL du proxy Cloudflare (vrai live). Vide = repli sur live.json (quasi-direct 3-6 min).
       var LIVE_WORKER = '';
-      var RAW = 'https://raw.githubusercontent.com/ThibautGRAS/charbonneur/main/data/live.json';
+      var RAW = 'https://raw.githubusercontent.com/tgrey89/charbonneur/main/data/live.json';
       var box = document.getElementById('lastMatch');
       if (!box) return;
       var saved = null;

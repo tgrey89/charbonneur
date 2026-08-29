@@ -15,7 +15,7 @@ La clé Brevo vit dans le secret GitHub `BREVO_API_KEY` — jamais dans le repo 
 
 ## Procédure
 1. Dispatch :
-   `POST https://api.github.com/repos/ThibautGRAS/charbonneur/actions/workflows/newsletter.yml/dispatches`
+   `POST https://api.github.com/repos/tgrey89/charbonneur/actions/workflows/newsletter.yml/dispatches`
    body : `{"ref":"main","inputs":{"test_email":"<adresse ou vide>","days":"7"}}`
    (test_email vide ⇒ envoi réel à la liste.)
 2. Attendre ~45 s, lire le dernier run : `GET .../actions/runs?per_page=1`.

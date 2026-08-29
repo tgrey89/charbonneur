@@ -8,7 +8,7 @@
 const TEAM = 116;            // RC Lens chez API-Football
 const CACHE_LIVE = 45;       // secondes de cache pendant un match
 const CACHE_IDLE = 600;      // hors match : 10 min
-const ALLOWED = 'https://thibautgras.github.io';
+const ALLOWED = 'https://tgrey89.github.io';
 
 export default {
   async fetch(request, env, ctx) {

@@ -13,7 +13,7 @@ const fs = require('fs');
 
 const API = 'https://api.brevo.com/v3';
 const KEY = process.env.BREVO_API_KEY;
-const SITE = 'https://thibautgras.github.io/charbonneur/';
+const SITE = 'https://tgrey89.github.io/charbonneur/';
 const DAYS = parseInt(process.env.DAYS || '7', 10);
 
 if (!KEY) { console.error('BREVO_API_KEY manquant'); process.exit(1); }
