@@ -76,3 +76,9 @@ soit une fausse/vieille news → ne pas publier.
 - **Sagnan** : première L1 réussie, titulaire dans l'axe → la piste « défenseur gaucher externe » devient moins urgente selon la presse locale. **Mesloub** (banc, non entré) : à ajouter à l'effectif après vérification (poste/âge sur rclens.fr).
 - Classement : **Lens 2e** derrière l'OM (diff). J2 : **Strasbourg-Lens samedi 29/08**.
 - Hazard : suspension purgée (entré en jeu à la 62e), disponible pour la J2.
+
+## Mise à jour du 29/08 (matin, avant J2)
+- **Tirage LDC** (27/08, officiel) : domicile = Man City, Sporting, Bodø/Glimt, Côme ; extérieur = Liverpool (Anfield), Bruges, Leipzig, Slavia Prague. 1re à Bollaert le 10/09.
+- **J2 Strasbourg-Lens AUJOURD'HUI 17h15** (Meinau, arbitre Dechepy, Ligue 1+). Défense décimée : Baidoo et Gradit indisponibles, Antonio purge son DERNIER match de suspension. Thauvin à 99 buts — un « coup dur » le concernant circule (But!, non détaillé/vérifié) → PRUDENCE, ne rien affirmer sur sa titularisation.
+- **Mercato (rumeurs datées 27-28/08)** : prêt Bitshiabu (Leipzig) « tout proche », Galatasaray en embuscade ; piste Kadile menacée ; Belocian évoqué ; Fofana désormais vers LE HAVRE (plus Rangers) ; piste Nanasi (Strasbourg) ABANDONNÉE après refus d'une offre de 8 M€ — cohérent avec la doctrine Leca.
+- Migration tgrey89 TERMINÉE : site = tgrey89.github.io/charbonneur, tout rebranché. Ancien dépôt à rediriger + archiver (checklist donnée à Thibaut). Cron newsletter en mode direct par défaut.

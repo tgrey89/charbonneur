@@ -9,6 +9,54 @@
 
 window.ARTICLES = [
   {
+    id: 'j2-strasbourg-avant',
+    date: '2026-08-29',
+    time: '10:45',
+    category: 'saison',
+    title: 'J2 à la Meinau : une défense à réinventer, et un chiffre rond dans un coin de tête',
+    excerpt: 'Le Racing se déplace à Strasbourg ce samedi (17h15) avec une arrière-garde décimée — Baidoo et Gradit indisponibles, Antonio suspendu pour un dernier match — et le jeune Sagnan appelé à confirmer. En face, un RCSA giflé d\u2019entrée à Marseille et diminué. Et Thauvin, lui, reste à un but des 100 en Ligue 1.',
+    image: 'images/defaut/lens3.jpg',
+    featured: null,
+    pinned: false,
+    body: [
+      'Une semaine après le festival contre Auxerre, changement de décor : direction la Meinau ce samedi à 17h15 pour la 2e journée, face à un Strasbourg qui n\u2019a pas raté son entrée dans la saison — il l\u2019a complètement manquée, giflé 4-0 au Vélodrome, et la presse alsacienne égrène depuis les coups durs dans son effectif.',
+      'Les Sang et Or n\u2019abordent pourtant pas le rendez-vous au complet, loin de là, et c\u2019est derrière que Dino Toppmöller doit bricoler : Samson Baidoo et Jonathan Gradit sont toujours indisponibles, et Kyllian Antonio purge le dernier match de sa suspension héritée du Trophée des Champions. Titulaire surprise et convaincant contre Auxerre, le jeune Souleymane Sagnan devrait donc être reconduit dans l\u2019axe.',
+      'Cette infirmerie défensive éclaire d\u2019ailleurs la fin de mercato : la presse évoque avec insistance un prêt d\u2019El Chadaille Bitshiabu (RB Leipzig) qui serait proche d\u2019aboutir, malgré la concurrence de Galatasaray — au conditionnel tant que rien n\u2019est signé, fermeture du marché mardi à 19h59.',
+      'Et puis il y a ce chiffre qui flotte au-dessus du voyage en Alsace : Florian Thauvin compte 99 buts en Ligue 1. S\u2019il tient sa place, le capitaine peut franchir à la Meinau une barre que très peu de joueurs du championnat en activité ont atteinte. L\u2019arbitre du soir, Bastien Dechepy, a plutôt réussi aux Lensois par le passé — les superstitieux apprécieront.',
+      'Une victoire prolongerait l\u2019état de grâce d\u2019un été parfait et maintiendrait le Racing au contact du sommet avant l\u2019enchaînement Lorient puis, déjà, la Ligue des champions. Coup d\u2019envoi 17h15, diffusion Ligue 1+ — et le score en direct sur Charbonneurs, évidemment.'
+    ],
+    sources: [
+      { name: 'MercatoMinute (blessés et suspension)', url: 'https://mercatominute.fr/rc-lens/' },
+      { name: 'But! Football Club (avant-match, coups durs RCSA)', url: 'https://www.butfootballclub.fr/actualites/ligue-1/rc-lens/' },
+      { name: 'AllezLens (Bitshiabu, arbitrage)', url: 'https://allezlens.fr/' }
+    ]
+  },
+  {
+    id: 'tirage-ldc-2026',
+    date: '2026-08-27',
+    time: '20:30',
+    category: 'saison',
+    title: 'Ligue des champions : Manchester City et Côme à Bollaert, Anfield en pèlerinage — le tirage est tombé',
+    excerpt: 'Le Racing connaît ses huit adversaires de la phase de ligue : City, le Sporting, Bodø/Glimt et Côme à Bollaert ; Liverpool, Bruges, Leipzig et le Slavia Prague à l\u2019extérieur. Un plateau prestigieux mais homogène, qu\u2019Oughourlian et Leca abordent sans complexe.',
+    image: 'images/defaut/bollaert-nuit.jpg',
+    featured: null,
+    pinned: false,
+    hot: true,
+    heat: 4,
+    body: [
+      'Le verdict est tombé jeudi soir à Monaco : pour sa première participation à la nouvelle formule de la Ligue des champions — 36 équipes, un classement unique, huit matchs contre huit adversaires différents —, le Racing a hérité d\u2019un tirage qui a de la gueule.',
+      'À Bollaert défileront Manchester City, le Sporting Portugal, Bodø/Glimt et Côme. À l\u2019extérieur, les Sang et Or iront défier Liverpool à Anfield, Bruges, le RB Leipzig — un clin d\u2019\u0153il pour la recrue pressentie en défense — et le Slavia Prague.',
+      'Le président Joseph Oughourlian n\u2019a pas caché son émotion après le tirage, soulignant que les deux affiches anglaises concernent des équipes que le club n\u2019a jamais affrontées — et que se déplacer à Anfield avec son propre club a quelque chose de très spécial. Le directeur sportif Jean-Louis Leca a donné le ton sportif : <em>\u00ab on ne s\u2019interdit rien \u00bb</em>, avec l\u2019exemple revendiqué de Bodø/Glimt, surprise de la dernière édition\u2026 que Lens affrontera précisément à domicile.',
+      'La grille de lecture est simple : les huit premiers du classement général filent directement en huitièmes, les places 9 à 24 offrent un barrage aller-retour. Un plateau homogène comme celui-ci autorise tous les scénarios — et avec quatre réceptions dans un Bollaert des grands soirs, le rêve est permis.',
+      'Rendez-vous le 10 septembre pour la grande première à domicile. D\u2019ici là, il y a un championnat à soigner : Strasbourg samedi, Lorient dans la foulée — l\u2019été des Sang et Or n\u2019a pas fini d\u2019écrire son histoire.'
+    ],
+    sources: [
+      { name: 'RC Lens (officiel, les 8 adversaires)', url: 'https://www.rclens.fr/fr/les-adversaires-du-racing-27082026' },
+      { name: 'franceinfo (tirage complet)', url: 'https://www.franceinfo.fr/sports/foot/ligue-des-champions/quel-programme-pour-le-psg-lens-et-lille-en-ligue-des-champions-suivez-le-tirage-en-sort-en-direct_8159603.html' },
+      { name: 'Foot Mercato (réactions Oughourlian/Leca)', url: 'https://www.footmercato.net/a1841809922617172936-ligue-des-champions-le-rc-lens-reagit-au-tirage-au-sort' }
+    ]
+  },
+  {
     id: 'j1-lens-auxerre-5-2',
     date: '2026-08-22',
     time: '21:30',
