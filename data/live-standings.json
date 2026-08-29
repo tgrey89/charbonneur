@@ -1,0 +1,60 @@
+{
+ "anyLive": false,
+ "updated": "2026-08-29T18:21:45.805Z",
+ "rows": [
+  {
+   "pos": 1,
+   "club": "Lille",
+   "played": 2,
+   "diff": "+2",
+   "pts": 4,
+   "live": false,
+   "isLens": false
+  },
+  {
+   "pos": 2,
+   "club": "Marseille",
+   "played": 1,
+   "diff": "+4",
+   "pts": 3,
+   "live": false,
+   "isLens": false
+  },
+  {
+   "pos": 3,
+   "club": "RC Lens",
+   "played": 2,
+   "diff": "+2",
+   "pts": 3,
+   "live": false,
+   "isLens": true
+  },
+  {
+   "pos": 4,
+   "club": "Olympique Lyon",
+   "played": 1,
+   "diff": "+2",
+   "pts": 3,
+   "live": false,
+   "isLens": false
+  },
+  {
+   "pos": 5,
+   "club": "Monaco",
+   "played": 1,
+   "diff": "+1",
+   "pts": 3,
+   "live": false,
+   "isLens": false
+  },
+  {
+   "pos": 6,
+   "club": "Strasbourg",
+   "played": 2,
+   "diff": "-3",
+   "pts": 3,
+   "live": false,
+   "isLens": false
+  }
+ ]
+}

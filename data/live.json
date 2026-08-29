@@ -1,12 +1,12 @@
 {
- "status": "PAUSED",
+ "status": "FINISHED",
  "minute": null,
  "utcDate": "2026-08-29T15:15:00Z",
  "competition": "Ligue 1",
  "home": {
   "name": "Strasbourg",
   "tla": "RC",
-  "score": 0
+  "score": 2
  },
  "away": {
   "name": "RC Lens",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": "2026-09-05T15:15:00Z",
- "updated": "2026-08-29T16:05:15.867Z"
+ "updated": "2026-08-29T18:21:45.805Z"
 }
