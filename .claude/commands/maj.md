@@ -106,3 +106,15 @@ Après TOUTE modification de style.css ou app.js, mettre à jour le paramètre `
 sur les deux balises dans index.html (format YYYYMMDDHHMM). Sans ce bump, GitHub
 Pages/Safari servent l'ancienne version pendant ~10 minutes et les tests mobiles
 sont trompeurs.
+
+## 🖼️ DOCTRINE IMAGES (29/08/2026)
+Ordre de priorité pour illustrer un article :
+1. **Photos locales** du repo (images/players/, images/defaut/) — joueurs et Bollaert.
+2. **Wikimedia Commons en hotlink** via `Special:FilePath/<Nom%20du%20fichier>?width=1200`
+   — idéal pour les STADES (adversaires, déplacements) et lieux. OBLIGATOIRE :
+   champ `imageCredit: 'Auteur · Licence · Wikimedia Commons'` (relever l'auteur et
+   la licence sur la page File: du fichier ; si PD, créditer quand même la source).
+   Ne choisir que des fichiers dont la page indique clairement la licence.
+3. **JAMAIS** de photo de presse hotlinkée (Icon Sport, AFP, Panoramic…) même créditée.
+4. Portraits de joueurs sans photo locale : demander à Thibaut de déposer le fichier
+   dans images/players/<slug>.jpg — ne pas contourner.
