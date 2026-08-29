@@ -110,7 +110,7 @@ sont trompeurs.
 ## 🖼️ DOCTRINE IMAGES (29/08/2026)
 Ordre de priorité pour illustrer un article :
 1. **Photos locales** du repo (images/players/, images/defaut/) — joueurs et Bollaert.
-2. **Wikimedia Commons en hotlink** via `Special:FilePath/<Nom%20du%20fichier>?width=1200`
+2. **Consulter data/imagebank.md** (banque constituée, créditée, avec les pièges) et VARIER — pas la même image que dans les 5 derniers articles. Sinon : **Wikimedia Commons en hotlink** via `Special:FilePath/<Nom%20du%20fichier>?width=1200`
    — idéal pour les STADES (adversaires, déplacements) et lieux. OBLIGATOIRE :
    champ `imageCredit: 'Auteur · Licence · Wikimedia Commons'` (relever l'auteur et
    la licence sur la page File: du fichier ; si PD, créditer quand même la source).
