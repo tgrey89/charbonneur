@@ -41,5 +41,5 @@ jobs:
           TEST_EMAIL: ${{ github.event.inputs.test_email }}
           DAYS: ${{ github.event.inputs.days || '7' }}
           MIN_AGE_H: ${{ github.event.inputs.min_age_h || '24' }}
-          MODE: ${{ github.event.inputs.mode || 'campaign' }}
+          MODE: ${{ github.event.inputs.mode || 'direct' }}
         run: node scripts/newsletter.js
