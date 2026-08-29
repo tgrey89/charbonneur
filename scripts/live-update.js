@@ -89,11 +89,14 @@ if (!KEY) { console.log('::warning::FOOTBALL_DATA_KEY absent — direct désacti
       const lens = rows.find(r => /Lens/i.test(r.club));
       const top = rows.slice(0, 6);
       if (lens && !top.includes(lens)) top.push(lens);
-      fs.writeFileSync('data/live-standings.json', JSON.stringify({
+      const stPath = 'data/live-standings.json';
+      const stPrev = fs.existsSync(stPath) ? fs.readFileSync(stPath, 'utf8') : '';
+      fs.writeFileSync(stPath, JSON.stringify({
         anyLive: rows.some(r => r.live),
         updated: now.toISOString(),
         rows: top.map(r => ({ pos: r.pos, club: r.club, played: r.played, diff: (r.gd >= 0 ? '+' : '') + r.gd, pts: r.pts, live: r.live, isLens: /Lens/i.test(r.club) }))
       }, null, 1));
+      if (fs.readFileSync(stPath, 'utf8').replace(/"updated":[^,}]+/,'') !== stPrev.replace(/"updated":[^,}]+/,'')) fs.writeFileSync('.live-changed', '1');
     }
   } catch (e) { console.log('::warning::classement live : ' + String(e.message).slice(0, 120)); }
 

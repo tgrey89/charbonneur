@@ -5,7 +5,9 @@ on:
     - cron: "*/5 * * * *"
 permissions:
   contents: write
-concurrency: live-score
+concurrency:
+  group: live-score
+  cancel-in-progress: true
 jobs:
   poll:
     runs-on: ubuntu-latest
