@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-08-29T15:15:00Z",
+ "utcDate": "2026-09-05T15:15:00Z",
  "competition": "Ligue 1",
  "home": {
-  "name": "Strasbourg",
-  "tla": "RC",
-  "score": 2
- },
- "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 1
+  "score": null
+ },
+ "away": {
+  "name": "Lorient",
+  "tla": "FCL",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-09-05T15:15:00Z",
- "updated": "2026-08-29T18:21:45.805Z"
+ "updated": "2026-08-30T12:14:49.376Z"
 }
