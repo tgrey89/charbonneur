@@ -1,14 +1,14 @@
 {
- "anyLive": true,
- "updated": "2026-08-31T05:36:41.217Z",
+ "anyLive": false,
+ "updated": "2026-08-31T11:49:16.904Z",
  "rows": [
   {
    "pos": 1,
    "club": "Monaco",
-   "played": 3,
-   "diff": "+4",
-   "pts": 9,
-   "live": true,
+   "played": 2,
+   "diff": "+3",
+   "pts": 6,
+   "live": false,
    "isLens": false
   },
   {
