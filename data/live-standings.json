@@ -1,14 +1,14 @@
 {
- "anyLive": true,
- "updated": "2026-09-03T20:22:43.035Z",
+ "anyLive": false,
+ "updated": "2026-09-03T22:39:37.420Z",
  "rows": [
   {
    "pos": 1,
    "club": "Lille",
-   "played": 4,
-   "diff": "+4",
-   "pts": 10,
-   "live": true,
+   "played": 3,
+   "diff": "+3",
+   "pts": 7,
+   "live": false,
    "isLens": false
   },
   {
