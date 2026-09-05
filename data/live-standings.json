@@ -1,6 +1,6 @@
 {
  "anyLive": true,
- "updated": "2026-09-05T16:28:48.820Z",
+ "updated": "2026-09-05T16:30:52.297Z",
  "rows": [
   {
    "pos": 1,
@@ -31,12 +31,12 @@
   },
   {
    "pos": 4,
-   "club": "RC Lens",
+   "club": "Lorient",
    "played": 4,
-   "diff": "+2",
+   "diff": "+0",
    "pts": 5,
    "live": true,
-   "isLens": true
+   "isLens": false
   },
   {
    "pos": 5,
@@ -55,6 +55,15 @@
    "pts": 4,
    "live": false,
    "isLens": false
+  },
+  {
+   "pos": 8,
+   "club": "RC Lens",
+   "played": 4,
+   "diff": "+1",
+   "pts": 4,
+   "live": true,
+   "isLens": true
   }
  ]
 }
