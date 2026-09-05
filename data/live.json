@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "IN_PLAY",
  "minute": null,
  "utcDate": "2026-09-05T15:15:00Z",
  "competition": "Ligue 1",
  "home": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 0
  },
  "away": {
   "name": "Lorient",
   "tla": "FCL",
-  "score": null
+  "score": 0
  },
  "goals": [],
- "nextMatch": "2026-09-05T15:15:00Z",
- "updated": "2026-08-30T12:14:49.376Z"
+ "nextMatch": "2026-09-10T19:00:00Z",
+ "updated": "2026-09-05T15:31:31.692Z"
 }

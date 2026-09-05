@@ -1,6 +1,6 @@
 {
- "anyLive": false,
- "updated": "2026-09-04T21:32:39.014Z",
+ "anyLive": true,
+ "updated": "2026-09-05T15:31:31.692Z",
  "rows": [
   {
    "pos": 1,
@@ -31,6 +31,15 @@
   },
   {
    "pos": 4,
+   "club": "RC Lens",
+   "played": 4,
+   "diff": "+2",
+   "pts": 5,
+   "live": true,
+   "isLens": true
+  },
+  {
+   "pos": 5,
    "club": "Paris FC",
    "played": 2,
    "diff": "+3",
@@ -39,31 +48,13 @@
    "isLens": false
   },
   {
-   "pos": 5,
+   "pos": 6,
    "club": "Stade Rennais",
    "played": 2,
    "diff": "+1",
    "pts": 4,
    "live": false,
    "isLens": false
-  },
-  {
-   "pos": 6,
-   "club": "Troyes",
-   "played": 2,
-   "diff": "+1",
-   "pts": 4,
-   "live": false,
-   "isLens": false
-  },
-  {
-   "pos": 7,
-   "club": "RC Lens",
-   "played": 2,
-   "diff": "+2",
-   "pts": 3,
-   "live": false,
-   "isLens": true
   }
  ]
 }
