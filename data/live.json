@@ -6,7 +6,7 @@
  "home": {
   "name": "Slavia Praha",
   "tla": "SLP",
-  "score": 0
+  "score": 1
  },
  "away": {
   "name": "RC Lens",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": "2026-09-13T15:15:00Z",
- "updated": "2026-09-10T20:06:04.095Z"
+ "updated": "2026-09-10T20:13:12.224Z"
 }
