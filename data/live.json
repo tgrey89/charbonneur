@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "PAUSED",
  "minute": null,
  "utcDate": "2026-09-10T19:00:00Z",
  "competition": "UEFA Champions League",
  "home": {
   "name": "Slavia Praha",
   "tla": "SLP",
-  "score": null
+  "score": 0
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 0
  },
  "goals": [],
- "nextMatch": "2026-09-10T19:00:00Z",
- "updated": "2026-09-06T12:57:24.474Z"
+ "nextMatch": "2026-09-13T15:15:00Z",
+ "updated": "2026-09-10T20:02:58.793Z"
 }
