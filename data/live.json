@@ -1,5 +1,5 @@
 {
- "status": "IN_PLAY",
+ "status": "FINISHED",
  "minute": null,
  "utcDate": "2026-09-10T19:00:00Z",
  "competition": "UEFA Champions League",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": "2026-09-13T15:15:00Z",
- "updated": "2026-09-10T20:55:02.569Z"
+ "updated": "2026-09-10T20:59:08.056Z"
 }
