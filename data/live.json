@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-09-10T19:00:00Z",
- "competition": "UEFA Champions League",
+ "utcDate": "2026-09-13T15:15:00Z",
+ "competition": "Ligue 1",
  "home": {
-  "name": "Slavia Praha",
-  "tla": "SLP",
-  "score": 2
+  "name": "Le Mans",
+  "tla": "LMF",
+  "score": null
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 3
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-09-13T15:15:00Z",
- "updated": "2026-09-10T20:59:08.056Z"
+ "updated": "2026-09-11T13:34:03.131Z"
 }
