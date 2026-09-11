@@ -32,7 +32,9 @@ const arts = window.ARTICLES
     const t = new Date(a.date + 'T' + (a.time || '12:00'));
     if (t < cutoff) return false;
     const age = Date.now() - t;
-    if (age < MIN_AGE_MS) return false;
+    // Tolérance fuseau : les articles sont horodatés heure de Paris, le runner est en UTC.
+    // En dérogation (sas 0), on accepte jusqu'à 6h « dans le futur » ; sinon sas normal.
+    if (MIN_AGE_MS > 0 ? age < MIN_AGE_MS : age < -6 * 3600e3) return false;
     if (a.statut === 'rumeur' && age > RUMOR_TTL_MS) return false;
     return true;
   })
