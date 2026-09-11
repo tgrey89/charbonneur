@@ -82,3 +82,11 @@ soit une fausse/vieille news → ne pas publier.
 - **J2 Strasbourg-Lens AUJOURD'HUI 17h15** (Meinau, arbitre Dechepy, Ligue 1+). Défense décimée : Baidoo et Gradit indisponibles, Antonio purge son DERNIER match de suspension. Thauvin à 99 buts — un « coup dur » le concernant circule (But!, non détaillé/vérifié) → PRUDENCE, ne rien affirmer sur sa titularisation.
 - **Mercato (rumeurs datées 27-28/08)** : prêt Bitshiabu (Leipzig) « tout proche », Galatasaray en embuscade ; piste Kadile menacée ; Belocian évoqué ; Fofana désormais vers LE HAVRE (plus Rangers) ; piste Nanasi (Strasbourg) ABANDONNÉE après refus d'une offre de 8 M€ — cohérent avec la doctrine Leca.
 - Migration tgrey89 TERMINÉE : site = tgrey89.github.io/charbonneur, tout rebranché. Ancien dépôt à rediriger + archiver (checklist donnée à Thibaut). Cron newsletter en mode direct par défaut.
+
+
+## Mise à jour du 11/09 (21h30, rattrapage de 13 jours)
+- CORRECTION : la 1re LDC n'était PAS à Bollaert le 10/09 mais À PRAGUE (l'info « 10/09 à Bollaert » du registre était fausse). La 1re à Bollaert reste À DATER (vérifier calendrier UEFA : City, Sporting, Bodø ou Côme).
+- Résultats : J2 Strasbourg 2-1 Lens (29/08) ; J3 Lens 0-1 Lorient (05/09, but Koné, Udol sorti sur blessure 20e — statut À VÉRIFIER) ; **LDC J1 : Slavia 2-3 Lens (10/09)** — rouge Konecny 49e, Sima 73e, Sturm doublé (88e), THAUVIN et AGUILAR dans le temps additionnel. Lens ~10e de C1.
+- Classement L1 après J3 : Lens 11e, 3 pts (+1). Prochains : Le Mans (dim 13/09 17h15, Marie-Marvingt), J5 ven 18/09 20h45.
+- ⚠️ TROUS À COMBLER (aucune maj du 30/08 au 10/09) : compte-rendus J2/J3 jamais écrits, et surtout **BILAN MERCATO FINAL (fermé le 01/09) INCONNU** — vérifier en priorité à la prochaine session : gaucher ? Bitshiabu ? départs de deadline ? effectif players.js potentiellement périmé.
+- Newsletter hebdo : le cron du 11/09 19h n'est pas parti (planification GitHub dégradée) ; spéciale programme envoyée à 21h45 en mode direct.

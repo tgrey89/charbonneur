@@ -9,6 +9,54 @@
 
 window.ARTICLES = [
   {
+    id: 'programme-septembre-2026',
+    date: '2026-09-11',
+    time: '21:00',
+    category: 'saison',
+    title: 'Spéciale programme : après la folie de Prague, un mois de septembre pour relancer la machine',
+    excerpt: 'Deux défaites en championnat (2-1 à Strasbourg, 0-1 contre Lorient) ont fait retomber le Racing au 11e rang, mais le hold-up héroïque de Prague a rallumé la flamme. Au menu : Le Mans dimanche (17h15), la J5 vendredi prochain, et la grande première européenne à Bollaert à venir.',
+    image: 'images/defaut/stade.jpg',
+    featured: null,
+    pinned: false,
+    body: [
+      'Résumons trois semaines contrastées. Après l\u2019été parfait et le récital contre Auxerre, le championnat a rappelé le Racing à l\u2019ordre : défaite 2-1 à la Meinau face à Strasbourg, puis 0-1 à Bollaert contre Lorient — le premier but en Ligue 1 du jeune Mamadou Koné et une équipe lensoise apparue émoussée, malgré une fin de match à l\u2019initiative. Bilan comptable : 3 points en 3 journées et une 11e place qui pique.',
+      'C\u2019est dans ce contexte que la soirée de Prague prend toute sa dimension : menés à la 90e minute, les Sang et Or ont renversé le Slavia dans le temps additionnel (3-2) pour lancer idéalement leur campagne européenne. Le genre de victoire fondatrice qui peut retourner une dynamique.',
+      'Le programme, maintenant. Dimanche 13 septembre à 17h15, déplacement au stade Marie-Marvingt pour défier Le Mans, promu et hôte inédit (diffusion Ligue 1+). Une équipe qui n\u2019a rien à perdre, le piège classique après une soirée européenne — la gestion des organismes, trois jours après Prague, sera le premier chantier de Dino Toppmöller.',
+      'La semaine suivante enchaîne vite : 5e journée dès le vendredi 18 septembre (20h45), avant la grande soirée que tout l\u2019Artois attend — la première de Ligue des champions à Bollaert, face à l\u2019un des quatre invités de prestige du tirage (Manchester City, Sporting, Bodø/Glimt ou Côme selon le calendrier UEFA, que nous détaillerons dès confirmation).',
+      'L\u2019équation de septembre est simple : transformer l\u2019élan de Prague en points de championnat pour recoller au peloton de tête avant l\u2019automne européen. Rendez-vous dimanche — et comme toujours, score en direct sur le site et l\u2019hebdo dans votre boîte chaque vendredi.'
+    ],
+    sources: [
+      { name: 'RC Lens (résultats officiels)', url: 'https://www.rclens.fr/fr/pros-calendrier-resultats' },
+      { name: 'Lens-Actu (calendrier)', url: 'https://www.lens-actu.fr/' },
+      { name: 'Orange Sports / Media365 (débrief J3)', url: 'https://sports.orange.fr/football/ligue-1/debrief/ligue-1-j3-lorient-surprend-lens-exclu-CNT000002rK1En.html' }
+    ]
+  },
+  {
+    id: 'ldc-slavia-lens-2-3',
+    date: '2026-09-10',
+    time: '23:15',
+    category: 'saison',
+    title: 'IRRESPIRABLE : mené à la 90e, Lens renverse le Slavia à Prague (2-3) pour sa grande première',
+    excerpt: 'Quelle entrée dans la Ligue des champions ! Menés 1-0 puis 2-1 à l\u2019entame du temps additionnel, les Sang et Or ont tout retourné à l\u2019Eden Arena grâce à Thauvin puis Aguilar. Sima avait égalisé, Risser a longtemps tenu la baraque : Lens démarre l\u2019Europe par un hold-up héroïque.',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/RC%20Lens%20-%20Arsenal%20FC%20(03-10-2023)%2016%20(cropped).jpg?width=1200',
+    imageCredit: 'Wikimedia Commons · CC0',
+    featured: null,
+    pinned: false,
+    hot: true,
+    heat: 10,
+    body: [
+      'Il y a des soirées qui valent une saison de récits, et la première page européenne du Racing version 2026-27 en fait partie. À l\u2019Eden Arena de Prague, Lens a renversé le Slavia 3 buts à 2, jeudi soir, en marquant deux fois dans un temps additionnel de pure folie.',
+      'Le scénario avait pourtant tout du piège parfait. Dominés dans le jeu malgré les situations de Sima, d\u2019Udol et de Thauvin, les Lensois doivent un premier merci à Robin Risser, impérial pour maintenir le 0-0 à la pause. Au retour des vestiaires, la VAR fait basculer la soirée : à peine entré, Konecny crochète Sima lancé seul au but — rouge direct (49e), le Slavia jouera l\u2019heure restante à dix.',
+      'Et c\u2019est pourtant Prague qui frappe, dans la foulée. La réponse vient de Sima, opportuniste sur une frappe d\u2019Odsonne Édouard déviée (73e, 1-1). Mais quand Sturm profite d\u2019une sortie hasardeuse de Risser pour redonner l\u2019avantage aux Tchèques (88e), tout semble écrit : troisième revers de rang en vue après Strasbourg et Lorient.',
+      'C\u2019était compter sans les deux trentenaires du vestiaire. Dans le temps additionnel, le capitaine Florian Thauvin remet les siens à hauteur, puis Ruben Aguilar crucifie l\u2019Eden Arena pour le 2-3 final. Une victoire poussive dans le contenu — jouer une heure en supériorité sans dominer laissera des questions — mais inestimable au classement.',
+      'Car le tableau comptable est somptueux : le Racing s\u2019installe d\u2019entrée dans le peloton de tête de la phase de ligue, aux côtés du PSG, du Bayern, du Barça et de Manchester City. La suite du feuilleton européen s\u2019écrira à Bollaert. En attendant : Le Mans dimanche, et une dynamique de championnat à réparer.'
+    ],
+    sources: [
+      { name: 'Eurosport (récit du match)', url: 'https://www.eurosport.fr/football/ligue-des-champions/2026-2027/ligue-des-champions-dingue-mene-a-la-90e-minute-lens-renverse-prague-dans-le-temps-additionnel-3-2_sto23336224/story.shtml' },
+      { name: 'Foot01 (fil et classement C1)', url: 'https://www.foot01.com/lens/ldc-la-folie-a-prague-lens-renverse-le-slavia-sur-le-gong' }
+    ]
+  },
+  {
     id: 'j2-strasbourg-avant',
     date: '2026-08-29',
     time: '10:45',

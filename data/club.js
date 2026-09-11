@@ -10,19 +10,19 @@
 window.CLUB = {
   // Dernier match : finale de la Como Cup remportée face à Villarreal (1er août 2026, Côme)
   lastMatch: {
-    comp: 'Ligue 1 · J1',
-    home: { code: 'RCL', name: 'RC Lens', score: 5, isLens: true },
-    away: { code: 'AJA', name: 'Auxerre', score: 2 },
-    info: 'Bollaert · 38 115 spectateurs · doublé de Thauvin'
+    comp: 'Ligue des champions · J1',
+    home: { code: 'SLA', name: 'Slavia Prague', score: 2 },
+    away: { code: 'RCL', name: 'RC Lens', score: 3, isLens: true },
+    info: 'Eden Arena · renversement dans le temps additionnel (Thauvin, Aguilar)'
   },
-  // Classement 2026-27 après J1 (source : sports-infos, 23/08/2026) — top 6 affiché
-  standingsTitle: 'Classement 2026-27 · après J1',
+  // Classement 2026-27 après J3 (source : robot live-standings, 11/09/2026) — top 5 + Lens
+  standingsTitle: 'Classement 2026-27 · après J3',
   standings: [
-    { pos: 1, club: 'Marseille', played: 1, diff: '+4', pts: 3 },
-    { pos: 2, club: 'RC Lens', played: 1, diff: '+3', pts: 3, isLens: true },
-    { pos: 3, club: 'Lille', played: 1, diff: '+2', pts: 3 },
-    { pos: 4, club: 'Lyon', played: 1, diff: '+2', pts: 3 },
-    { pos: 5, club: 'Monaco', played: 1, diff: '+1', pts: 3 },
-    { pos: 6, club: 'Paris SG', played: 1, diff: '0', pts: 1 }
+    { pos: 1, club: 'Monaco', played: 3, diff: '+4', pts: 9 },
+    { pos: 2, club: 'Lyon', played: 3, diff: '+4', pts: 7 },
+    { pos: 3, club: 'Paris FC', played: 3, diff: '+4', pts: 7 },
+    { pos: 4, club: 'Lille', played: 3, diff: '+3', pts: 7 },
+    { pos: 5, club: 'Rennes', played: 3, diff: '+2', pts: 7 },
+    { pos: 11, club: 'RC Lens', played: 3, diff: '+1', pts: 3, isLens: true }
   ]
 };
