@@ -1,6 +1,6 @@
 {
- "anyLive": true,
- "updated": "2026-09-12T18:53:58.549Z",
+ "anyLive": false,
+ "updated": "2026-09-12T21:04:31.862Z",
  "rows": [
   {
    "pos": 1,
@@ -23,19 +23,19 @@
   {
    "pos": 3,
    "club": "Olympique Lyon",
-   "played": 5,
+   "played": 4,
    "diff": "+4",
-   "pts": 9,
-   "live": true,
+   "pts": 8,
+   "live": false,
    "isLens": false
   },
   {
    "pos": 4,
    "club": "Paris FC",
-   "played": 5,
+   "played": 4,
    "diff": "+4",
-   "pts": 9,
-   "live": true,
+   "pts": 8,
+   "live": false,
    "isLens": false
   },
   {
@@ -57,7 +57,7 @@
    "isLens": false
   },
   {
-   "pos": 12,
+   "pos": 11,
    "club": "RC Lens",
    "played": 3,
    "diff": "+1",
