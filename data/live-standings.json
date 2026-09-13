@@ -1,14 +1,14 @@
 {
- "anyLive": true,
- "updated": "2026-09-13T14:29:27.938Z",
+ "anyLive": false,
+ "updated": "2026-09-13T17:33:38.671Z",
  "rows": [
   {
    "pos": 1,
    "club": "Lille",
-   "played": 5,
+   "played": 4,
    "diff": "+5",
-   "pts": 13,
-   "live": true,
+   "pts": 10,
+   "live": false,
    "isLens": false
   },
   {
@@ -57,11 +57,11 @@
    "isLens": false
   },
   {
-   "pos": 11,
+   "pos": 9,
    "club": "RC Lens",
-   "played": 3,
+   "played": 4,
    "diff": "+1",
-   "pts": 3,
+   "pts": 4,
    "live": false,
    "isLens": true
   }
