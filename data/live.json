@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-09-13T15:15:00Z",
+ "utcDate": "2026-09-18T18:45:00Z",
  "competition": "Ligue 1",
  "home": {
-  "name": "Le Mans",
-  "tla": "LMF",
-  "score": 2
+  "name": "Monaco",
+  "tla": "ASM",
+  "score": null
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 2
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-09-18T18:45:00Z",
- "updated": "2026-09-13T17:33:38.671Z"
+ "updated": "2026-09-14T13:36:21.882Z"
 }
