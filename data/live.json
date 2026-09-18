@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "IN_PLAY",
  "minute": null,
  "utcDate": "2026-09-18T18:45:00Z",
  "competition": "Ligue 1",
  "home": {
   "name": "Monaco",
   "tla": "ASM",
-  "score": null
+  "score": 0
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 0
  },
  "goals": [],
- "nextMatch": "2026-09-18T18:45:00Z",
- "updated": "2026-09-14T13:36:21.882Z"
+ "nextMatch": null,
+ "updated": "2026-09-18T18:46:01.429Z"
 }
