@@ -6,7 +6,7 @@
  "home": {
   "name": "Monaco",
   "tla": "ASM",
-  "score": 0
+  "score": 1
  },
  "away": {
   "name": "RC Lens",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": null,
- "updated": "2026-09-18T18:46:01.429Z"
+ "updated": "2026-09-18T19:18:39.232Z"
 }
