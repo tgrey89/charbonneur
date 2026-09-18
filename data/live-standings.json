@@ -1,14 +1,14 @@
 {
- "anyLive": true,
- "updated": "2026-09-18T20:43:23.947Z",
+ "anyLive": false,
+ "updated": "2026-09-18T21:04:45.760Z",
  "rows": [
   {
    "pos": 1,
    "club": "Monaco",
-   "played": 6,
-   "diff": "+6",
-   "pts": 16,
-   "live": true,
+   "played": 5,
+   "diff": "+5",
+   "pts": 13,
+   "live": false,
    "isLens": false
   },
   {
@@ -59,10 +59,10 @@
   {
    "pos": 10,
    "club": "RC Lens",
-   "played": 6,
-   "diff": "-1",
+   "played": 5,
+   "diff": "+0",
    "pts": 4,
-   "live": true,
+   "live": false,
    "isLens": true
   }
  ]
