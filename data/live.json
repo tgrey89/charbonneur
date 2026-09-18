@@ -1,5 +1,5 @@
 {
- "status": "IN_PLAY",
+ "status": "PAUSED",
  "minute": null,
  "utcDate": "2026-09-18T18:45:00Z",
  "competition": "Ligue 1",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": null,
- "updated": "2026-09-18T19:18:39.232Z"
+ "updated": "2026-09-18T19:35:00.036Z"
 }
