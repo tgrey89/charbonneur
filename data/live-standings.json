@@ -1,6 +1,6 @@
 {
  "anyLive": true,
- "updated": "2026-10-09T20:35:47.928Z",
+ "updated": "2026-10-09T20:40:55.420Z",
  "rows": [
   {
    "pos": 1,
@@ -15,7 +15,7 @@
    "pos": 2,
    "club": "Olympique Lyon",
    "played": 7,
-   "diff": "+5",
+   "diff": "+6",
    "pts": 11,
    "live": true,
    "isLens": false
@@ -42,7 +42,7 @@
    "pos": 5,
    "club": "RC Lens",
    "played": 7,
-   "diff": "+3",
+   "diff": "+2",
    "pts": 10,
    "live": true,
    "isLens": true
