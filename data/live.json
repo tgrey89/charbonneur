@@ -6,7 +6,7 @@
  "home": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 0
+  "score": 1
  },
  "away": {
   "name": "Olympique Lyon",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": "2026-10-13T16:45:00Z",
- "updated": "2026-10-09T18:56:25.223Z"
+ "updated": "2026-10-09T19:23:02.292Z"
 }
