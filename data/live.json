@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-09T18:45:00Z",
- "competition": "Ligue 1",
+ "utcDate": "2026-10-13T16:45:00Z",
+ "competition": "UEFA Champions League",
  "home": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 2
+  "score": null
  },
  "away": {
-  "name": "Olympique Lyon",
-  "tla": "LYO",
-  "score": 1
+  "name": "Sporting CP",
+  "tla": "SPO",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-10-13T16:45:00Z",
- "updated": "2026-10-09T20:40:55.420Z"
+ "updated": "2026-10-10T14:38:18.409Z"
 }
