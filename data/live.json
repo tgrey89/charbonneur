@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-13T16:45:00Z",
- "competition": "UEFA Champions League",
+ "utcDate": "2026-10-17T18:45:00Z",
+ "competition": "Ligue 1",
  "home": {
-  "name": "RC Lens",
-  "tla": "RCL",
-  "score": 0
+  "name": "Troyes",
+  "tla": "ETR",
+  "score": null
  },
  "away": {
-  "name": "Sporting CP",
-  "tla": "SPO",
-  "score": 2
+  "name": "RC Lens",
+  "tla": "RCL",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-10-17T18:45:00Z",
- "updated": "2026-10-13T18:41:34.643Z"
+ "updated": "2026-10-14T16:48:52.699Z"
 }
