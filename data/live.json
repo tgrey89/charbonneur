@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "IN_PLAY",
  "minute": null,
  "utcDate": "2026-10-17T18:45:00Z",
  "competition": "Ligue 1",
  "home": {
   "name": "Troyes",
   "tla": "ETR",
-  "score": null
+  "score": 0
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 0
  },
  "goals": [],
- "nextMatch": "2026-10-17T18:45:00Z",
- "updated": "2026-10-14T16:48:52.699Z"
+ "nextMatch": "2026-10-21T19:00:00Z",
+ "updated": "2026-10-17T18:45:15.720Z"
 }
