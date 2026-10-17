@@ -1,6 +1,6 @@
 {
  "anyLive": true,
- "updated": "2026-10-17T19:18:17.468Z",
+ "updated": "2026-10-17T19:20:22.000Z",
  "rows": [
   {
    "pos": 1,
@@ -57,11 +57,11 @@
    "isLens": false
   },
   {
-   "pos": 8,
+   "pos": 9,
    "club": "RC Lens",
    "played": 8,
-   "diff": "+2",
-   "pts": 11,
+   "diff": "+1",
+   "pts": 9,
    "live": true,
    "isLens": true
   }
