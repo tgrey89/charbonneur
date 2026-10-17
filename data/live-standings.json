@@ -1,9 +1,18 @@
 {
  "anyLive": true,
- "updated": "2026-10-17T18:50:24.319Z",
+ "updated": "2026-10-17T18:51:27.050Z",
  "rows": [
   {
    "pos": 1,
+   "club": "Lille",
+   "played": 8,
+   "diff": "+5",
+   "pts": 15,
+   "live": true,
+   "isLens": false
+  },
+  {
+   "pos": 2,
    "club": "PSG",
    "played": 7,
    "diff": "+5",
@@ -12,18 +21,9 @@
    "isLens": false
   },
   {
-   "pos": 2,
+   "pos": 3,
    "club": "Monaco",
    "played": 6,
-   "diff": "+5",
-   "pts": 14,
-   "live": false,
-   "isLens": false
-  },
-  {
-   "pos": 3,
-   "club": "Lille",
-   "played": 7,
    "diff": "+5",
    "pts": 14,
    "live": false,
