@@ -6,7 +6,7 @@
  "home": {
   "name": "Troyes",
   "tla": "ETR",
-  "score": 0
+  "score": 1
  },
  "away": {
   "name": "RC Lens",
@@ -15,5 +15,5 @@
  },
  "goals": [],
  "nextMatch": "2026-10-21T19:00:00Z",
- "updated": "2026-10-17T18:59:42.781Z"
+ "updated": "2026-10-17T19:14:09.483Z"
 }
