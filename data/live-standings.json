@@ -1,9 +1,18 @@
 {
  "anyLive": true,
- "updated": "2026-10-17T20:10:50.409Z",
+ "updated": "2026-10-17T20:11:53.312Z",
  "rows": [
   {
    "pos": 1,
+   "club": "Lille",
+   "played": 8,
+   "diff": "+5",
+   "pts": 15,
+   "live": true,
+   "isLens": false
+  },
+  {
+   "pos": 2,
    "club": "PSG",
    "played": 7,
    "diff": "+5",
@@ -12,21 +21,12 @@
    "isLens": false
   },
   {
-   "pos": 2,
+   "pos": 3,
    "club": "Monaco",
    "played": 6,
    "diff": "+5",
    "pts": 14,
    "live": false,
-   "isLens": false
-  },
-  {
-   "pos": 3,
-   "club": "Lille",
-   "played": 8,
-   "diff": "+4",
-   "pts": 14,
-   "live": true,
    "isLens": false
   },
   {
@@ -49,11 +49,11 @@
   },
   {
    "pos": 6,
-   "club": "Brest",
-   "played": 8,
-   "diff": "+4",
-   "pts": 12,
-   "live": true,
+   "club": "Olympique Lyon",
+   "played": 6,
+   "diff": "+7",
+   "pts": 11,
+   "live": false,
    "isLens": false
   }
  ]
