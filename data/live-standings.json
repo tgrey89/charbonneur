@@ -1,6 +1,6 @@
 {
- "anyLive": true,
- "updated": "2026-10-17T20:44:48.961Z",
+ "anyLive": false,
+ "updated": "2026-10-18T09:15:19.295Z",
  "rows": [
   {
    "pos": 1,
@@ -31,15 +31,6 @@
   },
   {
    "pos": 4,
-   "club": "RC Lens",
-   "played": 8,
-   "diff": "+5",
-   "pts": 13,
-   "live": true,
-   "isLens": true
-  },
-  {
-   "pos": 5,
    "club": "Stade Rennais",
    "played": 6,
    "diff": "+2",
@@ -48,13 +39,31 @@
    "isLens": false
   },
   {
-   "pos": 6,
+   "pos": 5,
    "club": "Olympique Lyon",
    "played": 6,
    "diff": "+7",
    "pts": 11,
    "live": false,
    "isLens": false
+  },
+  {
+   "pos": 6,
+   "club": "Paris FC",
+   "played": 6,
+   "diff": "+4",
+   "pts": 11,
+   "live": false,
+   "isLens": false
+  },
+  {
+   "pos": 7,
+   "club": "RC Lens",
+   "played": 7,
+   "diff": "+3",
+   "pts": 10,
+   "live": false,
+   "isLens": true
   }
  ]
 }
