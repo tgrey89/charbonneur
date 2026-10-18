@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-17T18:45:00Z",
- "competition": "Ligue 1",
+ "utcDate": "2026-10-21T19:00:00Z",
+ "competition": "UEFA Champions League",
  "home": {
-  "name": "Troyes",
-  "tla": "ETR",
-  "score": 1
+  "name": "Club Brugge",
+  "tla": "BRU",
+  "score": null
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 3
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-10-21T19:00:00Z",
- "updated": "2026-10-17T20:44:48.961Z"
+ "updated": "2026-10-18T13:20:04.452Z"
 }
