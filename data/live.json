@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "IN_PLAY",
  "minute": null,
  "utcDate": "2026-10-21T19:00:00Z",
  "competition": "UEFA Champions League",
  "home": {
   "name": "Club Brugge",
   "tla": "BRU",
-  "score": null
+  "score": 0
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 0
  },
  "goals": [],
- "nextMatch": "2026-10-21T19:00:00Z",
- "updated": "2026-10-18T13:20:04.452Z"
+ "nextMatch": "2026-10-24T18:45:00Z",
+ "updated": "2026-10-21T19:30:46.605Z"
 }
