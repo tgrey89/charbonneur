@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-21T19:00:00Z",
- "competition": "UEFA Champions League",
+ "utcDate": "2026-10-24T18:45:00Z",
+ "competition": "Ligue 1",
  "home": {
-  "name": "Club Brugge",
-  "tla": "BRU",
-  "score": 3
- },
- "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 0
+  "score": null
+ },
+ "away": {
+  "name": "Paris FC",
+  "tla": "PFC",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-10-24T18:45:00Z",
- "updated": "2026-10-21T20:52:58.138Z"
+ "updated": "2026-10-22T15:31:36.870Z"
 }
