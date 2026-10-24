@@ -1,14 +1,14 @@
 {
- "anyLive": false,
- "updated": "2026-10-24T19:04:42.362Z",
+ "anyLive": true,
+ "updated": "2026-10-24T19:06:46.065Z",
  "rows": [
   {
    "pos": 1,
    "club": "Paris FC",
-   "played": 8,
+   "played": 9,
    "diff": "+5",
-   "pts": 15,
-   "live": false,
+   "pts": 16,
+   "live": true,
    "isLens": false
   },
   {
@@ -59,10 +59,10 @@
   {
    "pos": 7,
    "club": "RC Lens",
-   "played": 8,
+   "played": 9,
    "diff": "+3",
-   "pts": 11,
-   "live": false,
+   "pts": 12,
+   "live": true,
    "isLens": true
   }
  ]
