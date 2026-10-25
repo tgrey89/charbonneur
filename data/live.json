@@ -1,19 +1,19 @@
 {
  "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-24T18:45:00Z",
+ "utcDate": "2026-10-30T20:05:00Z",
  "competition": "Ligue 1",
  "home": {
+  "name": "Lille",
+  "tla": "LIL",
+  "score": null
+ },
+ "away": {
   "name": "RC Lens",
   "tla": "RCL",
   "score": null
  },
- "away": {
-  "name": "Paris FC",
-  "tla": "PFC",
-  "score": null
- },
  "goals": [],
- "nextMatch": "2026-10-24T18:45:00Z",
- "updated": "2026-10-24T19:06:46.065Z"
+ "nextMatch": "2026-10-30T20:05:00Z",
+ "updated": "2026-10-25T12:03:40.783Z"
 }
