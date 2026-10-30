@@ -1,23 +1,23 @@
 {
- "anyLive": false,
- "updated": "2026-10-26T23:14:27.403Z",
+ "anyLive": true,
+ "updated": "2026-10-30T18:12:59.774Z",
  "rows": [
   {
    "pos": 1,
    "club": "PSG",
-   "played": 8,
+   "played": 10,
    "diff": "+7",
-   "pts": 17,
-   "live": false,
+   "pts": 19,
+   "live": true,
    "isLens": false
   },
   {
    "pos": 2,
    "club": "Stade Rennais",
-   "played": 8,
+   "played": 10,
    "diff": "+4",
-   "pts": 16,
-   "live": false,
+   "pts": 18,
+   "live": true,
    "isLens": false
   },
   {
