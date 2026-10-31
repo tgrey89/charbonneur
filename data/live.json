@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-10-30T20:05:00Z",
- "competition": "Ligue 1",
+ "utcDate": "2026-11-04T20:00:00Z",
+ "competition": "UEFA Champions League",
  "home": {
-  "name": "Lille",
-  "tla": "LIL",
-  "score": 1
- },
- "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": 0
+  "score": null
+ },
+ "away": {
+  "name": "Como 1907",
+  "tla": "COM",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-11-04T20:00:00Z",
- "updated": "2026-10-30T22:20:03.048Z"
+ "updated": "2026-10-31T13:48:12.181Z"
 }
