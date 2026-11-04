@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "FINISHED",
  "minute": null,
  "utcDate": "2026-11-04T20:00:00Z",
  "competition": "UEFA Champions League",
  "home": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 1
  },
  "away": {
   "name": "Como 1907",
   "tla": "COM",
-  "score": null
+  "score": 9
  },
  "goals": [],
- "nextMatch": "2026-11-04T20:00:00Z",
- "updated": "2026-10-31T13:48:12.181Z"
+ "nextMatch": "2026-11-08T19:45:00Z",
+ "updated": "2026-11-04T23:53:45.595Z"
 }
