@@ -1,6 +1,6 @@
 {
- "anyLive": false,
- "updated": "2026-11-05T12:08:35.028Z",
+ "anyLive": true,
+ "updated": "2026-11-06T20:53:06.674Z",
  "rows": [
   {
    "pos": 1,
@@ -49,15 +49,15 @@
   },
   {
    "pos": 6,
-   "club": "Marseille",
-   "played": 9,
-   "diff": "+7",
-   "pts": 15,
-   "live": false,
+   "club": "Toulouse",
+   "played": 11,
+   "diff": "+1",
+   "pts": 16,
+   "live": true,
    "isLens": false
   },
   {
-   "pos": 9,
+   "pos": 10,
    "club": "RC Lens",
    "played": 9,
    "diff": "+3",
