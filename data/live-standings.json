@@ -1,22 +1,22 @@
 {
- "anyLive": false,
- "updated": "2026-11-07T18:05:18.193Z",
+ "anyLive": true,
+ "updated": "2026-11-07T21:43:41.412Z",
  "rows": [
   {
    "pos": 1,
    "club": "PSG",
-   "played": 9,
-   "diff": "+11",
-   "pts": 20,
-   "live": false,
+   "played": 11,
+   "diff": "+13",
+   "pts": 26,
+   "live": true,
    "isLens": false
   },
   {
    "pos": 2,
    "club": "Paris FC",
    "played": 10,
-   "diff": "+6",
-   "pts": 18,
+   "diff": "+7",
+   "pts": 20,
    "live": false,
    "isLens": false
   },
