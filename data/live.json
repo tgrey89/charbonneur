@@ -1,19 +1,19 @@
 {
- "status": "FINISHED",
+ "status": "TIMED",
  "minute": null,
- "utcDate": "2026-11-21T19:45:00Z",
- "competition": "Ligue 1",
+ "utcDate": "2026-11-24T20:00:00Z",
+ "competition": "UEFA Champions League",
  "home": {
-  "name": "RC Lens",
-  "tla": "RCL",
-  "score": 1
+  "name": "RB Leipzig",
+  "tla": "RBL",
+  "score": null
  },
  "away": {
-  "name": "Toulouse",
-  "tla": "TOU",
-  "score": 1
+  "name": "RC Lens",
+  "tla": "RCL",
+  "score": null
  },
  "goals": [],
  "nextMatch": "2026-11-24T20:00:00Z",
- "updated": "2026-11-21T21:39:04.656Z"
+ "updated": "2026-11-22T15:49:39.916Z"
 }
