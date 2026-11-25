@@ -1,19 +1,19 @@
 {
- "status": "TIMED",
+ "status": "FINISHED",
  "minute": null,
  "utcDate": "2026-11-24T20:00:00Z",
  "competition": "UEFA Champions League",
  "home": {
   "name": "RB Leipzig",
   "tla": "RBL",
-  "score": null
+  "score": 3
  },
  "away": {
   "name": "RC Lens",
   "tla": "RCL",
-  "score": null
+  "score": 1
  },
  "goals": [],
- "nextMatch": "2026-11-24T20:00:00Z",
- "updated": "2026-11-22T15:49:39.916Z"
+ "nextMatch": "2026-11-28T16:15:00Z",
+ "updated": "2026-11-25T00:52:19.674Z"
 }
