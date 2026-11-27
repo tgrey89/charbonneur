@@ -1,6 +1,6 @@
 {
- "anyLive": false,
- "updated": "2026-11-25T19:24:08.199Z",
+ "anyLive": true,
+ "updated": "2026-11-27T20:08:47.807Z",
  "rows": [
   {
    "pos": 1,
@@ -14,10 +14,10 @@
   {
    "pos": 2,
    "club": "Paris FC",
-   "played": 11,
+   "played": 13,
    "diff": "+11",
-   "pts": 23,
-   "live": false,
+   "pts": 25,
+   "live": true,
    "isLens": false
   },
   {
@@ -40,16 +40,16 @@
   },
   {
    "pos": 5,
-   "club": "Marseille",
-   "played": 11,
+   "club": "Brest",
+   "played": 13,
    "diff": "+7",
-   "pts": 18,
-   "live": false,
+   "pts": 20,
+   "live": true,
    "isLens": false
   },
   {
    "pos": 6,
-   "club": "Brest",
+   "club": "Marseille",
    "played": 11,
    "diff": "+7",
    "pts": 18,
